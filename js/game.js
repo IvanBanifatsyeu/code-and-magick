@@ -1,5 +1,6 @@
 "use strict";
 
+
 window.GameConstants = {
 	Fireball: {
 		size: window.fireballSize || 24,
@@ -312,6 +313,8 @@ window.Game = (function () {
 		this.setDeactivated(false);
 	};
 
+	
+
 	Game.prototype = {
 		/**
 		 * Текущий уровень игры.
@@ -333,6 +336,8 @@ window.Game = (function () {
 				this._initializeGameListeners();
 			}
 		},
+
+
 
 		/**
 		 * Состояние игры. Описывает местоположение всех объектов на игровой карте
